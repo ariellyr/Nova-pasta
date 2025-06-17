@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(112, 108, 110);
+    font-family: Comic Relief;
+}
+h1{
+    font-family: Comic Relief;
+    justify-content: center;
+    display: flex;
+}
+button{
+    background-color: rgb(162, 158, 153);
+    border-radius: 25px;
+    border-color: rgb(183, 163, 137);
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 20px;
+}
+input{
+    background-color: rgb(207, 199, 199);
+    margin-left: 20px;
+    border-radius: 25px;
+}
+form{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+label{
+    margin-left: 20px;
+}
+#resultado{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button:hover{
+    background-color: #b19c97;
+}
+img{
+  
+}

@@ -33,6 +33,6 @@ function calcularIMC(p, a){
         classificacao ="obesidade III"
     }
   
-   resultado.textContent = (`Seu peso é ${p}, sua altura é ${a} e seu IMC é &{conta}, seu nivel é ${classificacao}`)
+   resultado.textContent = (`Seu peso é ${p}, sua altura é ${a} e seu IMC é ${conta}, seu nivel é ${classificacao}`)
        
 }
