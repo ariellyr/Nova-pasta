@@ -12,6 +12,10 @@ imcForm.addEventListener('submit', function(event){
 function calcularIMC(p, a){
     const conta = p / (a*a);
     let classificacao = "";
+    console.log(a);
+    console.log(p);
+    console.log(conta);
+   
 
    
     if( conta<18.5){
@@ -33,6 +37,6 @@ function calcularIMC(p, a){
         classificacao ="obesidade III"
     }
   
-   resultado.textContent = (`Seu peso é ${p}, sua altura é ${a} e seu IMC é ${conta}, seu nivel é ${classificacao}`)
+   resultado.textContent = (`Seu peso é ${p}, sua altura é ${a} e seu IMC é ${conta.toFixed(2)}, seu nivel é ${classificacao}`)
        
 }
